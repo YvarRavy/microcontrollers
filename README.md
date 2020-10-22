@@ -1,6 +1,6 @@
 # Micro controllers
 
-* Yvar -  [Yvar-School](https://github.com/Yvar-School)
+* Yvar -  [YvarRavy](https://github.com/YvarRavy)
 
 # Project
 Here i will gather all my small projects.
