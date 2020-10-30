@@ -21,7 +21,6 @@ void setup() {
 void loop() {
 
   for (postion = 0; postion <= 8; postion++) {
-    Serial.println(postion);
     //lc.setLed(0, 1, 1, false); // erase previous ball position
     delay(500);
 
@@ -29,14 +28,16 @@ void loop() {
     if (postion == 8) {
       test();
     }
+    if (row == 8) {
+      lc.clearDisplay(0);
+      row = 0;
+    }
+
   }
-
-
 }
 
 void test() {
   delay(500);
-  lc.clearDisplay(0);
   row++;
 
 }
