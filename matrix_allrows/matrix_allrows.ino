@@ -12,7 +12,7 @@ void setup() {
   // set the brightness to a low value
   lc.setIntensity (0, 0); // 0 = low; 8 = high
 
-  // clear the display // goodbye smiley!
+  // clear the display 
   lc.clearDisplay(0);
 }
 
