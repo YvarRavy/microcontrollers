@@ -12,6 +12,7 @@ void setup()
 
 void loop()
 {
+  // zuja: Zou je hier niet iets kunnen met: https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/ ?
     val = analogRead(pot);
     val = map(val, 0, 1023, 0, 179);
     myservo.write(val);
