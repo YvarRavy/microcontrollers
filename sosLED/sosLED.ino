@@ -6,8 +6,6 @@ void setup()
 
 void loop()
 {
-  // zuja: Zou dit ook anders kunnen, bijvoorbeeld met een functie Morse('...---...')
-  // hoe leuk zou dat zijn ?!
     digitalWrite(Led, HIGH);  //dot
     delay (500);              //dotlengte
     digitalWrite(Led, LOW);   //symboolspatie
