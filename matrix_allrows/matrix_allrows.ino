@@ -26,7 +26,7 @@ void loop() {
 
     lc.setLed(0, row, postion, true);
     if (postion == 8) {
-      test();
+      addRow();
     }
     if (row == 8) {
       lc.clearDisplay(0);
@@ -36,7 +36,7 @@ void loop() {
   }
 }
 
-void test() {
+void addRow() {
   delay(500);
   row++;
 
