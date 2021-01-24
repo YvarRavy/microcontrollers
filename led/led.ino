@@ -6,7 +6,7 @@ int buttonState = 0;
 
 void setup() {
   pinMode(ledPin, OUTPUT);
-//  pinMode(buttonPin, INPUT);
+  pinMode(buttonPin, INPUT);
 }
 void loop() {
       buttonState = digitalRead(buttonPin);
